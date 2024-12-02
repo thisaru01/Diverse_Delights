@@ -1,0 +1,185 @@
+<web-app>
+
+ <!-- Servlet for Admin Login -->
+    <servlet>
+	    <servlet-name>AdminLoginServlet</servlet-name>
+	    <servlet-class>food_item_management.AdminLoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>AdminLoginServlet</servlet-name>
+	    <url-pattern>/adminLoginServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>AdminLogoutServlet</servlet-name>
+	    <servlet-class>food_item_management.AdminLogoutServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	    <servlet-name>AdminLogoutServlet</servlet-name>
+	    <url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+    <servlet>
+        <servlet-name>FoodItemSubmitServlet</servlet-name>
+        <servlet-class>food_item_management.FoodItemSubmitServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FoodItemSubmitServlet</servlet-name>
+        <url-pattern>/submitFoodItem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FoodItemEditServlet</servlet-name>
+        <servlet-class>food_item_management.FoodItemEditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FoodItemEditServlet</servlet-name>
+        <url-pattern>/editFoodItem</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FoodItemDeleteServlet</servlet-name>
+        <servlet-class>food_item_management.FoodItemDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FoodItemDeleteServlet</servlet-name>
+        <url-pattern>/deleteFoodItem</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddToCartServlet</servlet-name>
+        <servlet-class>cart_management.AddToCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddToCartServlet</servlet-name>
+        <url-pattern>/AddToCartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewCartServlet</servlet-name>
+        <servlet-class>cart_management.ViewCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewCartServlet</servlet-name>
+        <url-pattern>/ViewCartServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveFromCartServlet</servlet-name>
+        <servlet-class>cart_management.RemoveFromCartServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemoveFromCartServlet</servlet-name>
+        <url-pattern>/RemoveFromCartServlet</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>UpdateCartItemServlet</servlet-name>
+        <servlet-class>cart_management.UpdateCartItemServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateCartItemServlet</servlet-name>
+        <url-pattern>/UpdateCartItemServlet</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Add LoginServlet mapping here -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>user_management.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>user_management.LogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+    
+ 
+   
+       <!-- User Management Servlet -->
+       <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>user_management.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+</servlet-mapping>
+       
+       
+    <servlet>
+        <servlet-name>DeleteAccountServlet</servlet-name>
+        <servlet-class>user_management.DeleteAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteAccountServlet</servlet-name>
+        <url-pattern>/DeleteAccountServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <servlet-class>user_management.UpdateUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateUserServlet</servlet-name>
+        <url-pattern>/UpdateUserServlet</url-pattern>
+    </servlet-mapping>
+   
+    <!-- Feedback Servlets -->
+   
+
+    <servlet>
+        <servlet-name>ViewFeedbackServlet</servlet-name>
+        <servlet-class>feedback_management.ViewFeedbackServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewFeedbackServlet</servlet-name>
+        <url-pattern>/ViewFeedbackServlet</url-pattern>
+    </servlet-mapping>
+
+   <servlet>
+    <servlet-name>AddFeedbackServlet</servlet-name>
+    <servlet-class>feedback_management.AddFeedbackServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddFeedbackServlet</servlet-name>
+    <url-pattern>/addFeedback</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditFeedbackServlet</servlet-name>
+    <servlet-class>feedback_management.EditFeedbackServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditFeedbackServlet</servlet-name>
+    <url-pattern>/editFeedback</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteFeedbackServlet</servlet-name>
+    <servlet-class>feedback_management.DeleteFeedbackServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteFeedbackServlet</servlet-name>
+    <url-pattern>/deleteFeedback</url-pattern>
+</servlet-mapping>
+   
+ <servlet>
+        <servlet-name>PlaceOrderServlet</servlet-name>
+        <servlet-class>order_management.PlaceOrderServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PlaceOrderServlet</servlet-name>
+        <url-pattern>/PlaceOrderServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>

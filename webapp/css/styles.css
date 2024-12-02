@@ -1,0 +1,75 @@
+/* Ensure the cart is hidden and slides from the right */
+.cart-sidebar {
+    position: fixed;
+    right: -320px; 
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.cart-sidebar.active {
+    right: 0; 
+}
+
+.cart-sidebar h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.cart-sidebar .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.cart-sidebar .cart-item p {
+    margin: 0;
+}
+
+.cart-sidebar .cart-total {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.cart-sidebar button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#closeCartButton {
+    background-color: #dc3545;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.cart-sidebar .btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+/* Fix the cart button position at the top-right */
+.navbar .btn-outline-success {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Additional styling for table and buttons */
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
+
+table img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}

@@ -1,0 +1,131 @@
+@charset "UTF-8";
+body {
+    
+   padding-top: 120px;
+    
+}
+
+.home-page body {
+    padding-top: 0px;
+}
+
+/* Sticky Header */
+.sticky-header {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    transition: all 0.4s ease; 
+    box-shadow: none;
+}
+
+/* Header before scroll (large) */
+.sticky-header.large {
+    padding: 15px 40px;
+    background-color: transparent; 
+}
+
+/* Header after scroll (small) */
+.sticky-header.shrink {
+    padding: 10px 20px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Large logo before scroll */
+.navbar-brand img {
+    max-height: 80px;
+    transition: all 0.4s ease;
+}
+
+/* Smaller logo after scroll */
+.sticky-header.shrink .navbar-brand img {
+    max-height: 65px;
+}
+
+/* Navigation bar */
+.navbar-nav {
+    font-size: 18px;
+}
+
+/* Navigation links */
+.nav-link {
+    color: #333;
+    margin-left: 20px;
+    transition: transform 0.3s ease, color 0.4s ease; 
+}
+
+/* Navigation links hover effect */
+.nav-link:hover {
+    color: #f7941d; 
+    transform: scale(1.15); 
+}
+
+/* Active page link */
+.nav-link.active {
+    font-weight: bold; 
+    transform: scale(1.2); 
+    color: #f7941d; 
+}
+
+/* Profile and Cart Icons */
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.navbar-icons a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.navbar-icons a:hover {
+    color: #f7941d;
+}
+
+/* Adjust navbar font for smaller devices */
+@media (max-width: 992px) {
+    .navbar-nav {
+        font-size: 16px;
+    }
+}
+
+
+
+/* Add custom styles for dropdown */
+  .navbar-icons {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown {
+            display: none;
+            position: absolute;
+            right: 0;
+            background-color: white;
+            box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+            border-radius: 4px;
+            z-index: 1;
+        }
+
+        
+        .navbar-icons:hover .dropdown {
+            display: block;
+        }
+
+        .dropdown a {
+            display: block;
+            padding: 8px 16px;
+            color: #000;
+            text-decoration: none;
+        }
+
+        .dropdown a:hover {
+            background-color: #f1f1f1;
+        }
+
+
+        
