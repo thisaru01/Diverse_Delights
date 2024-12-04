@@ -8,6 +8,8 @@
 Diverse Delights is an <b>Online Food Ordering System</b> that allows users to browse a variety of food items and place orders.
 To place an order, users must log in to the system (unregistered users can create an account). Restaurants can manage orders and deliveries through the admin panel.
 
+
+
 Click [here](https://www.youtube.com/  "youtube") to watch a demo
 
 ## Built With
@@ -60,3 +62,5 @@ This project was built with the following major technologies:
   <img src="Screenshots/admin2.png" alt="admin login" width="420">
   <img src="Screenshots/admin1.png" alt="admin Page" width="420">
 </div>
+
+
