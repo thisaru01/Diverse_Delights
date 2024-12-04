@@ -44,23 +44,23 @@ This project was built with the following major technologies:
 ## Screenshots
 #### Home Page
 <div style="display: flex">
-  <img src="Screenshots/home_page2.png" alt="Home Page 2" width="420">
-  <img src="Screenshots/home_page1.png" alt="Home Page 1" width="420">
+  <img src="Screenshots/home_page2.png" alt="Home Page 2" width="410">
+  <img src="Screenshots/home_page1.png" alt="Home Page 1" width="410">
 </div>
 
 #### Products Page
-<img src="Screenshots/products.png" alt="Products Page" width="420">
+<img src="Screenshots/products.png" alt="Products Page" width="410">
 
 #### Cart
-<img src="Screenshots/cart.png" alt="Cart" width="420">
+<img src="Screenshots/cart.png" alt="Cart" width="410">
 
 #### Profile
-<img src="Screenshots/profile.png" alt="Profile" width="420">
+<img src="Screenshots/profile.png" alt="Profile" width="410">
 
 #### Admin
 <div style="display: flex">
-  <img src="Screenshots/admin2.png" alt="admin login" width="420">
-  <img src="Screenshots/admin1.png" alt="admin Page" width="420">
+  <img src="Screenshots/admin2.png" alt="admin login" width="410">
+  <img src="Screenshots/admin1.png" alt="admin Page" width="410">
 </div>
 
 
