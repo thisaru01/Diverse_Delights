@@ -1,11 +1,14 @@
 <div align="center" >
   <img src="webapp/images/logo.png" alt="Logo" width="100" height="100">
   <h1 align="center">Diverse Delights</h1>
+  <h4>Online Food Ordering System</h4>
 </div>
 <br>
 <h2 align="center">About the project</h2>
 Diverse Delights is an <b>Online Food Ordering System</b> that allows users to browse a variety of food items and place orders.
-To place an order, users must log in to the system (unregistered users can create an account). Restaurants can manage orders and deliveries through the admin panel. 
+To place an order, users must log in to the system (unregistered users can create an account). Restaurants can manage orders and deliveries through the admin panel.
+
+Click [here](https://www.youtube.com/  "youtube") to watch a demo
 
 ## Built With
 
@@ -15,7 +18,7 @@ This project was built with the following major technologies:
 * [![Apache Tomcat][Apache-Tomcat-logo]][Apache-Tomcat-url] 
 * [![MySQL Workbench][Workbench-logo]][Workbench-url] 
 * [![CSS][CSS-logo]][CSS-url] 
-* [![JavaScript][JavaScript-logo]][JavaScript-url] 
+* [![JavaScript][JavaScript-logo]][JavaScript-url]
 * [![Bootstrap][Bootstrap-logo]][Bootstrap-url] 
 
 [Java-logo]: https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white
@@ -30,6 +33,10 @@ This project was built with the following major technologies:
 [JavaScript-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [Bootstrap-logo]: https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com/
+
+## Setup
+#### Please refer to the following video
+
 
 
 ## Screenshots
